@@ -9,11 +9,6 @@ import hal4 from "./../assets/landing/hal4.png";
 import logo2 from "./../assets/landing/logo2.png";
 
 class Landing extends Component {
-  handleSubmit = e => {
-    e.preventDefault();
-
-    console.log("submitted");
-  };
   render() {
     return (
       <React.Fragment>
@@ -84,11 +79,14 @@ class Landing extends Component {
           <div className="row">
             <div className="col-sm-5 text-center">
               <h2 className="display-4 mt-5">Launching Soon</h2>
-              <h4>Subscribe For Your Support</h4>
+              <h4>Subscribe For Early Access</h4>
 
               <div className="col-8 mx-auto bg-secondary p-3">
                 {/* <form onSubmit={this.handleSubmit}> */}
-                <form action="https://mailthis.to/sunarya" method="POST">
+                <form
+                  action="https://mailthis.to/sunaryaagung95@gmail.com"
+                  method="POST"
+                >
                   <div className="form-group">
                     <input
                       type="text"
