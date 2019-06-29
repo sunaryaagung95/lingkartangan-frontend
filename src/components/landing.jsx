@@ -79,11 +79,11 @@ class Landing extends Component {
           <div className="row">
             <div className="col-sm-5 text-center">
               <h2 className="display-4 mt-5">Launching Soon</h2>
-              <h4>Subscribe For Early Access</h4>
+              <h4 className="mt-5">Berikan Tanggapanmu</h4>
 
-              <div className="col-8 mx-auto bg-secondary p-3">
+              <div className="col-8 mx-auto p-3">
                 {/* <form onSubmit={this.handleSubmit}> */}
-                <form
+                {/* <form
                   action="https://mailthis.to/sunaryaagung95@gmail.com"
                   method="POST"
                 >
@@ -109,8 +109,15 @@ class Landing extends Component {
                       className="btn btn-primary mt-2 btn-block "
                     />
                   </div>
-                  {/* <button className="btn btn-primary">Subscribe</button> */}
-                </form>
+                  
+                </form> */}
+                <a
+                  className="btn btn-primary btn-block"
+                  href="https://forms.gle/ycBUJdhfNcJWNo1j6"
+                  target="_blank"
+                >
+                  Tulis
+                </a>
               </div>
             </div>
             <div className="col-sm text-center">
@@ -139,24 +146,33 @@ class Landing extends Component {
                 lingkartangan@gmail.com
               </p>
               <div className="btn-group-lg text-center">
-                <button className="btn">
+                <a
+                  href="https://www.instagram.com/lingkartanganid/?hl=id"
+                  className="btn"
+                >
                   <i
                     className="fa fa-instagram fa-10x mx-auto"
                     style={{ color: "white" }}
                   />
-                </button>
-                <button className="btn">
+                </a>
+                <a
+                  href="https://www.instagram.com/lingkartanganid/?hl=id"
+                  className="btn"
+                >
                   <i
                     className="fa fa-facebook fa-10x"
                     style={{ color: "white" }}
                   />
-                </button>
-                <button className="btn">
+                </a>
+                <a
+                  href="https://www.instagram.com/lingkartanganid/?hl=id"
+                  className="btn"
+                >
                   <i
                     className="fa fa-youtube fa-10x"
                     style={{ color: "white" }}
                   />
-                </button>
+                </a>
               </div>
             </div>
             <div className="col-sm-4" />
