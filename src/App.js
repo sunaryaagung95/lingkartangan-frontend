@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { toas } from "react-toastify";
 import Landing from "./components/landing";
 import "./App.css";
 
