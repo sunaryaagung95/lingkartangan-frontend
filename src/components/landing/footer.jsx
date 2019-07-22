@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div id="footer" className="container-fluid bg-primary mt-5">
+        <div id="footer" className="container-fluid bg-primary">
           <div className="row">
             <div className="col-sm" />
 

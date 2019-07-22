@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, NavLink } from "react-router-dom";
 import logo from "./../../assets/landing/logo2.png";
 import magnifier from "./../../assets/landing/magnifier.png";
 import colab from "./../../assets/landing/colab.png";
@@ -12,7 +13,7 @@ class Landing1 extends Component {
       <div className="container-fluid bg-primary">
         <div className="row text-center">
           <div className="col-md-6 m-4">
-            <img src={logo} className="img1" alt="logo" />
+            <img src={logo} className="img-fluid mb-5" alt="logo" />
 
             <div>
               <img src={magnifier} className="img2 mb-2" alt="logo" />
@@ -42,19 +43,22 @@ class Landing1 extends Component {
               <div className="col-sm-2" />
             </div>
             <form>
-              <button
-                type="button"
-                className="regis btn btn-outline-primary btn-lg mt-3"
-              >
-                Register
-              </button>
-              <br />
-              <button
-                type="button"
-                className="login btn btn-outline-primary btn-lg mt-3"
-              >
-                Login
-              </button>
+              <NavLink to="/register">
+                <button
+                  type="button"
+                  className="regis btn btn-outline-primary btn-lg mt-3"
+                >
+                  Register
+                </button>
+              </NavLink>
+              <NavLink to="/login">
+                <button
+                  type="button"
+                  className="regis btn btn-outline-primary btn-lg mt-3"
+                >
+                  Login
+                </button>
+              </NavLink>
             </form>
           </div>
         </div>
