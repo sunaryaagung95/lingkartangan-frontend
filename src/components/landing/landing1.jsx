@@ -43,7 +43,9 @@ class Landing1 extends Component {
               <div className="col-sm-2" />
             </div>
             <form>
-              <NavLink to="/register">
+
+            {/* <NavLink to="/register"> */}
+              <NavLink to="/">
                 <button
                   type="button"
                   className="regis btn btn-outline-primary btn-lg mt-3"
@@ -51,7 +53,9 @@ class Landing1 extends Component {
                   Register
                 </button>
               </NavLink>
-              <NavLink to="/login">
+              {/* <NavLink to="/login"> */}
+              <NavLink to="/">
+
                 <button
                   type="button"
                   className="regis btn btn-outline-primary btn-lg mt-3"
